@@ -32,7 +32,7 @@ jobs:
     with:
       environmentType: Production
       resourceGroupName: ToyWebsiteProduction
-       reviewApiUrl: https://api.contoso.com/reviews
+      reviewApiUrl: https://api.contoso.com/reviews
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS_PRODUCTION }}
       reviewApiKey: ${{ secrets.REVIEW_API_KEY_PRODUCTION }}
